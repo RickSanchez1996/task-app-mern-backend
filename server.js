@@ -9,7 +9,7 @@ const cors = require("cors");
 // Middleware
 app.use(
   cors({
-    origin: ["localhost:3000", "https://task-app-mern.onrender.com"],
+    origin: ["localhost:3000", "https://task-list-app-ogjz.onrender.com/"],
   })
 );
 app.use(express.json(), express.urlencoded({ extended: false }), taskRoutes);
