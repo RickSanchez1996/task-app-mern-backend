@@ -1,0 +1,33 @@
+{
+  "name": "mern-task-app",
+  "version": "1.0.0",
+  "main": "server.js.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "nodemon backend/server.js",
+    "frontend": "npm start --prefix frontend",
+    "both": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickSanchez1996/mern-task-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RickSanchez1996/mern-task-app/issues"
+  },
+  "homepage": "https://github.com/RickSanchez1996/mern-task-app#readme",
+  "description": ""
+}
